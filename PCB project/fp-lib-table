@@ -1,0 +1,4 @@
+(fp_lib_table
+	(version 7)
+	(lib (name "Matrix-USB-OTG") (type "KiCad") (uri "${KIPRJMOD}/Matrix-USB-OTG.pretty") (options "") (descr ""))
+)
