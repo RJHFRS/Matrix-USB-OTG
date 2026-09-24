@@ -89,7 +89,6 @@
 		)
 		(capping no)
 		(filling no)
-		(zone_defaults)
 		(pcbplotparams
 			(layerselection 0x00000000_00000000_55555555_5755f5ff)
 			(plot_on_all_layers_selection 0x00000000_00000000_00000000_00000000)
@@ -130,11 +129,11 @@
 	(footprint "Matrix-USB-OTG:SAMTEC_SSM-102-L-DV"
 		(layer "F.Cu")
 		(uuid "3d6a7f93-e069-455f-ba3e-7ab86ce67066")
-		(at 107.75 98.5 90)
+		(at 113.749999 97.899999 90)
 		(property "Reference" "J2"
-			(at 1.75 8.5 180)
+			(at 0.149999 5.240001 180)
 			(layer "F.SilkS")
-			(uuid "b8a3b788-21c9-4cbd-aa96-e132df8bc684")
+			(uuid "a904496d-3182-4fd2-a0ec-eacd3b8672ee")
 			(effects
 				(font
 					(size 1 1)
@@ -143,9 +142,9 @@
 			)
 		)
 		(property "Value" "SSM-102-L-DV"
-			(at 8.525 5.8 90)
+			(at -5.650001 -5.069999 90)
 			(layer "F.Fab")
-			(uuid "bd0076ae-e364-417c-b618-a3312050d5ad")
+			(uuid "64aa2bd0-4c09-4de5-b06c-a4fa58bf4beb")
 			(effects
 				(font
 					(size 1 1)
@@ -157,7 +156,7 @@
 			(at 0 0 90)
 			(layer "F.Fab")
 			(hide yes)
-			(uuid "12186aec-ffba-459b-8804-e229113b17d4")
+			(uuid "6bb95326-e8b0-4af0-82e5-7ab14599de3c")
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -168,7 +167,7 @@
 			(at 0 0 90)
 			(layer "F.Fab")
 			(hide yes)
-			(uuid "f64d5841-4530-4b31-858d-3edc8de96e15")
+			(uuid "b84e9c35-7a01-4e7d-b80b-7f99dba355a0")
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -256,34 +255,8 @@
 		(path "/c43ead3c-24c7-4384-a62c-01455c5fc178")
 		(sheetname "/")
 		(sheetfile "Matrix USB OTG.kicad_sch")
-		(units
-			(unit
-				(name "A")
-				(pins "01" "03" "02" "04")
-			)
-		)
 		(attr smd)
 		(duplicate_pad_numbers_are_jumpers no)
-		(fp_line
-			(start 2.54 -2.54)
-			(end 2.54 2.54)
-			(stroke
-				(width 0.2)
-				(type solid)
-			)
-			(layer "F.SilkS")
-			(uuid "12e8e762-1f7b-46bd-8bfc-2a4a05e61555")
-		)
-		(fp_line
-			(start 2.13 -2.54)
-			(end 2.54 -2.54)
-			(stroke
-				(width 0.2)
-				(type solid)
-			)
-			(layer "F.SilkS")
-			(uuid "a2916ed9-c1b4-4fba-9781-37ca5da34065")
-		)
 		(fp_line
 			(start -2.54 -2.54)
 			(end -2.13 -2.54)
@@ -293,16 +266,6 @@
 			)
 			(layer "F.SilkS")
 			(uuid "56e22320-905a-469f-8018-326fdf0f9f19")
-		)
-		(fp_line
-			(start 2.13 2.54)
-			(end 2.54 2.54)
-			(stroke
-				(width 0.2)
-				(type solid)
-			)
-			(layer "F.SilkS")
-			(uuid "309c9c03-e0cd-4395-b881-1b478dc44202")
 		)
 		(fp_line
 			(start -2.13 2.54)
@@ -515,7 +478,7 @@
 		(at 122.849999 112.330001 180)
 		(tags "USB3150-30-130-A ")
 		(property "Reference" "J1"
-			(at 1.3 0.65 180)
+			(at -3.910001 1.690001 0)
 			(unlocked yes)
 			(layer "F.SilkS")
 			(uuid "e65e67dd-589a-4f74-840b-41bab2d34aba")
@@ -527,7 +490,7 @@
 			)
 		)
 		(property "Value" "USB3150-30-130-A"
-			(at 1.3 0.65 180)
+			(at 3.959999 3.310001 0)
 			(unlocked yes)
 			(layer "F.Fab")
 			(uuid "e08a69da-6fc9-4f47-9db6-cd54e978b7ab")
@@ -977,19 +940,134 @@
 			)
 		)
 	)
-	(gr_rect
-		(start 100.75 95.75)
-		(end 130 115.25)
+	(gr_arc
+		(start 107.7 97.75)
+		(mid 108.285786 96.335786)
+		(end 109.7 95.75)
 		(stroke
 			(width 0.05)
 			(type default)
 		)
-		(fill no)
 		(layer "Edge.Cuts")
-		(uuid "9c8d7737-4c4e-40ec-b147-2aa6ed333ece")
+		(uuid "6d1ee2d0-c3ed-491f-95af-95c57490b35c")
+	)
+	(gr_line
+		(start 107.7 107.93)
+		(end 107.7 97.75)
+		(stroke
+			(width 0.05)
+			(type default)
+		)
+		(layer "Edge.Cuts")
+		(uuid "102c290b-a8fb-46aa-8d57-fe6a2e23f5d5")
+	)
+	(gr_arc
+		(start 107.7 107.93)
+		(mid 112.501255 109.918745)
+		(end 114.49 114.72)
+		(stroke
+			(width 0.05)
+			(type default)
+		)
+		(layer "Edge.Cuts")
+		(uuid "c78570c6-eb20-482e-a34c-7c6fa8a7f738")
+	)
+	(gr_line
+		(start 109.7 95.75)
+		(end 118.01 95.75)
+		(stroke
+			(width 0.05)
+			(type default)
+		)
+		(layer "Edge.Cuts")
+		(uuid "2896e6a8-5e81-4c3b-ac18-14e9d68fbcfa")
+	)
+	(gr_line
+		(start 114.49 114.72)
+		(end 125.9 114.72)
+		(stroke
+			(width 0.05)
+			(type default)
+		)
+		(layer "Edge.Cuts")
+		(uuid "a4a7f1e1-3272-4ae4-86a9-81d63c960f34")
+	)
+	(gr_arc
+		(start 118.01 95.75)
+		(mid 119.424214 96.335786)
+		(end 120.01 97.75)
+		(stroke
+			(width 0.05)
+			(type default)
+		)
+		(layer "Edge.Cuts")
+		(uuid "0b15b586-6bc7-41e9-bfd1-53faf3dfd649")
+	)
+	(gr_line
+		(start 120.01 97.74)
+		(end 120.01 105.65)
+		(stroke
+			(width 0.05)
+			(type default)
+		)
+		(layer "Edge.Cuts")
+		(uuid "17b837b7-ca4f-4c71-8206-93e263eec78b")
+	)
+	(gr_arc
+		(start 122.01 107.65)
+		(mid 120.595786 107.064214)
+		(end 120.01 105.65)
+		(stroke
+			(width 0.05)
+			(type default)
+		)
+		(layer "Edge.Cuts")
+		(uuid "181b172f-8c68-4519-b0cf-f457c663e913")
+	)
+	(gr_line
+		(start 125.9 107.644214)
+		(end 122.01 107.644214)
+		(stroke
+			(width 0.05)
+			(type default)
+		)
+		(layer "Edge.Cuts")
+		(uuid "edca89d8-f15d-4385-a8ac-4f03b3e22052")
+	)
+	(gr_arc
+		(start 125.9 107.644214)
+		(mid 127.314214 108.23)
+		(end 127.9 109.644214)
+		(stroke
+			(width 0.05)
+			(type default)
+		)
+		(layer "Edge.Cuts")
+		(uuid "fe3085ff-becc-4c42-90f2-bb3ae85c9dbc")
+	)
+	(gr_line
+		(start 127.9 109.644214)
+		(end 127.9 112.72)
+		(stroke
+			(width 0.05)
+			(type default)
+		)
+		(layer "Edge.Cuts")
+		(uuid "87dd8db6-8112-4706-803e-26612440d362")
+	)
+	(gr_arc
+		(start 127.9 112.72)
+		(mid 127.314214 114.134214)
+		(end 125.9 114.72)
+		(stroke
+			(width 0.05)
+			(type default)
+		)
+		(layer "Edge.Cuts")
+		(uuid "6711584f-4099-4bbe-859f-315f73d8c161")
 	)
 	(gr_text "DN"
-		(at 101.25 98 0)
+		(at 109.8 102.2 0)
 		(layer "F.SilkS")
 		(uuid "f61d9aaa-876c-4e2e-8d99-5d426bcdfddc")
 		(effects
@@ -1001,7 +1079,7 @@
 		)
 	)
 	(gr_text "VBUS"
-		(at 103 102.75 0)
+		(at 110.1 104 0)
 		(layer "F.SilkS")
 		(uuid "2599f7e6-c02d-4930-a3f9-ca672eb57b64")
 		(effects
@@ -1013,7 +1091,7 @@
 		)
 	)
 	(gr_text "GND"
-		(at 109 102.75 0)
+		(at 115 104 0)
 		(layer "F.SilkS")
 		(uuid "c4e5f779-468b-4b13-8b60-e6fd8d301ea4")
 		(effects
@@ -1025,7 +1103,7 @@
 		)
 	)
 	(gr_text "DP"
-		(at 112.75 97.75 0)
+		(at 115.1 102.4 0)
 		(layer "F.SilkS")
 		(uuid "685a6d3d-447b-487b-8f38-c2527b8a6c4b")
 		(effects
