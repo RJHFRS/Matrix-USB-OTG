@@ -212,7 +212,7 @@
 					)
 				)
 			)
-			(property "Value" "USB3150-30-130-A"
+			(property "Value" "USB3150-30-70-A"
 				(at 35.306 -12.192 0)
 				(show_name no)
 				(do_not_autoplace no)
@@ -222,7 +222,7 @@
 					)
 				)
 			)
-			(property "Footprint" "USB3150-30-130-A_GCC"
+			(property "Footprint" "USB3150-30-70-A_GCC"
 				(at 35.56 -12.446 0)
 				(show_name no)
 				(do_not_autoplace no)
@@ -1158,7 +1158,8 @@
 		(uuid "e422acc8-f6c1-4216-b6a1-0f0a5b89acc3")
 	)
 	(image
-		(at 92.71 49.53)
+		(at 80.01 40.64)
+		(scale 0.261131)
 		(uuid "b5c5f527-7b82-4a8a-aada-f2d3084fca27")
 		(data "iVBORw0KGgoAAAANSUhEUgAAB4AAAAQICAYAAADsqcbuAAAABHNCSVQICAgIfAhkiAAAIABJREFU"
 			"eJzs3Xl8VNX5+PHPnS2TPSEhKxASIIQQdmhA0KKIoEhxqVj1hyxWtFa/trgXFBCtKC1WpRZRQepS"
@@ -4454,7 +4455,7 @@
 				(justify right)
 			)
 		)
-		(property "Value" "USB3150-30-130-A"
+		(property "Value" "USB3150-30-70-A"
 			(at 151.13 102.87 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -4465,7 +4466,7 @@
 				(justify right)
 			)
 		)
-		(property "Footprint" "Matrix-USB-OTG:USB3150-30-130-A_GCC"
+		(property "Footprint" "USB3150-30-70-A_GCC"
 			(at 140.97 102.616 0)
 			(hide yes)
 			(show_name no)

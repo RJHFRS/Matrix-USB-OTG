@@ -209,7 +209,7 @@
 				)
 			)
 		)
-		(property "Value" "USB3150-30-130-A"
+		(property "Value" "USB3150-30-70-A"
 			(at 35.306 -12.192 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -219,7 +219,7 @@
 				)
 			)
 		)
-		(property "Footprint" "USB3150-30-130-A_GCC"
+		(property "Footprint" "USB3150-30-70-A_GCC"
 			(at 35.56 -12.446 0)
 			(show_name no)
 			(do_not_autoplace no)
