@@ -112,6 +112,22 @@
         [
           "annular_width|123049999|113250000|bf567cb4-3748-44ea-8299-adc87f827292|00000000-0000-0000-0000-000000000000",
           "Unable to create a 0.15mm annular width in this pad for this footprint."
+        ],
+        [
+          "hole_to_hole|118750000|112750001|0efcb109-8b22-43b0-87e4-3213230fd9bf|7bbc2e9c-b503-4b64-91e8-880c2b40d69e",
+          "This is the footprint."
+        ],
+        [
+          "hole_to_hole|120249999|112330001|3d3057ce-fede-45d9-9951-cba7a688056c|4130c83f-2b4c-4f3a-bb2a-672ad380f4b1",
+          "This is the footprint."
+        ],
+        [
+          "hole_to_hole|122849999|112330001|bf567cb4-3748-44ea-8299-adc87f827292|c16dca5e-6aef-462a-8d63-5451b3758101",
+          "This is the footprint."
+        ],
+        [
+          "hole_to_hole|124875113|111710001|0a5fd7bd-33f2-4eca-a201-72051ca401f4|b3c34a60-9090-448f-8801-8e841ef346a3",
+          "This is the footprint."
         ]
       ],
       "meta": {
@@ -131,7 +147,7 @@
         "duplicate_footprints": "warning",
         "extra_footprint": "warning",
         "footprint": "error",
-        "footprint_filters_mismatch": "ignore",
+        "footprint_filters_mismatch": "error",
         "footprint_symbol_field_mismatch": "warning",
         "footprint_symbol_mismatch": "warning",
         "footprint_type_mismatch": "ignore",
