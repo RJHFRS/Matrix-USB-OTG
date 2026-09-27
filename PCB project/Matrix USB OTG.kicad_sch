@@ -222,7 +222,7 @@
 					)
 				)
 			)
-			(property "Footprint" "USB3150-30-70-A_GCC"
+			(property "Footprint" "Matrix-USB-OTG:USB3150-30-130-A_GCC"
 				(at 35.56 -12.446 0)
 				(show_name no)
 				(do_not_autoplace no)
@@ -411,7 +411,7 @@
 					)
 				)
 				(pin power_in line
-					(at 27.94 -33.02 90)
+					(at 25.4 -33.02 90)
 					(length 2.54)
 					(name "GND"
 						(effects
@@ -429,7 +429,7 @@
 					)
 				)
 				(pin power_in line
-					(at 25.4 -33.02 90)
+					(at 22.86 -33.02 90)
 					(length 2.54)
 					(name "GND"
 						(effects
@@ -447,7 +447,7 @@
 					)
 				)
 				(pin power_in line
-					(at 22.86 -33.02 90)
+					(at 20.32 -33.02 90)
 					(length 2.54)
 					(name "GND"
 						(effects
@@ -465,7 +465,7 @@
 					)
 				)
 				(pin power_in line
-					(at 20.32 -33.02 90)
+					(at 17.78 -33.02 90)
 					(length 2.54)
 					(name "GND"
 						(effects
@@ -483,24 +483,6 @@
 					)
 				)
 				(pin power_in line
-					(at 17.78 -33.02 90)
-					(length 2.54)
-					(name "GND"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "9"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin power_in line
 					(at 15.24 -33.02 90)
 					(length 2.54)
 					(name "GND"
@@ -510,25 +492,7 @@
 							)
 						)
 					)
-					(number "10"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin power_in line
-					(at 12.7 -33.02 90)
-					(length 2.54)
-					(name "GND"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "11"
+					(number "9"
 						(effects
 							(font
 								(size 1.27 1.27)
@@ -944,12 +908,6 @@
 		(uuid "4dfe1bd8-bf82-4828-856d-22b91d4b7cea")
 	)
 	(junction
-		(at 130.81 123.19)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "642e5373-1ff4-4fb0-b119-1897fa985934")
-	)
-	(junction
 		(at 125.73 101.6)
 		(diameter 0)
 		(color 0 0 0 0)
@@ -1096,16 +1054,6 @@
 			(type default)
 		)
 		(uuid "b6076ba6-bbb6-474f-b3cc-453302ec7be9")
-	)
-	(wire
-		(pts
-			(xy 130.81 123.19) (xy 133.35 123.19)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "b8ee18cc-8a44-495e-b9c6-1ec587ba8ee9")
 	)
 	(wire
 		(pts
@@ -4466,7 +4414,7 @@
 				(justify right)
 			)
 		)
-		(property "Footprint" "USB3150-30-70-A_GCC"
+		(property "Footprint" "Matrix-USB-OTG:USB3150-30-130-A_GCC"
 			(at 140.97 102.616 0)
 			(hide yes)
 			(show_name no)
@@ -4553,12 +4501,6 @@
 		)
 		(pin "6"
 			(uuid "f4a1bc7f-bfe6-49e2-9680-1e2f41ebe5f8")
-		)
-		(pin "10"
-			(uuid "d8a5f17b-369d-44ab-8aec-42f51e249e50")
-		)
-		(pin "11"
-			(uuid "8de2f6de-0822-41df-82af-e03e955ec883")
 		)
 		(pin "5"
 			(uuid "7ab32be6-df86-4a7b-87cb-d6e0c2af847f")
