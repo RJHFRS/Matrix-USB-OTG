@@ -1,0 +1,75 @@
+** Drc report for Matrix USB OTG.kicad_pcb **
+** Created on 2026-09-27T17:40:11 **
+** Report includes: Errors, Warnings, Exclusions **
+
+** Found 12 DRC violations **
+[annular_width]: Annular width (board setup constraints min annular width 0.1500 mm; actual 0.1100 mm)
+    Rule: board setup constraints; error (excluded)
+    @(120.0500 mm, 113.2500 mm): PTH pad 9 [GND] of J1
+    Unable to create a 0.15mm annular width in this pad for this footprint.
+[annular_width]: Annular width (board setup constraints min annular width 0.1500 mm; actual 0.1056 mm)
+    Rule: board setup constraints; error (excluded)
+    @(123.0500 mm, 113.2500 mm): PTH pad 8 [GND] of J1
+    Unable to create a 0.15mm annular width in this pad for this footprint.
+[annular_width]: Annular width (board setup constraints min annular width 0.1500 mm; actual 0.1100 mm)
+    Rule: board setup constraints; error (excluded)
+    @(120.0500 mm, 110.7500 mm): PTH pad 7 [VBUS] of J1
+    Unable to create a 0.15mm annular width in this pad for this footprint.
+[annular_width]: Annular width (board setup constraints min annular width 0.1500 mm; actual 0.1100 mm)
+    Rule: board setup constraints; error (excluded)
+    @(123.0500 mm, 110.7500 mm): PTH pad 6 [VBUS] of J1
+    Unable to create a 0.15mm annular width in this pad for this footprint.
+[annular_width]: Annular width (board setup constraints min annular width 0.1500 mm; actual 0.1450 mm)
+    Rule: board setup constraints; error (excluded)
+    @(120.2500 mm, 112.3300 mm): PTH pad 5 [GND] of J1
+    Unable to create a 0.15mm annular width in this pad for this footprint.
+[annular_width]: Annular width (board setup constraints min annular width 0.1500 mm; actual 0.1450 mm)
+    Rule: board setup constraints; error (excluded)
+    @(120.9000 mm, 111.6800 mm): PTH pad 4 [unconnected-(J1-ID-Pad4)] of J1
+    Unable to create a 0.15mm annular width in this pad for this footprint.
+[annular_width]: Annular width (board setup constraints min annular width 0.1500 mm; actual 0.1450 mm)
+    Rule: board setup constraints; error (excluded)
+    @(121.5500 mm, 112.3300 mm): PTH pad 3 [/USB_DP] of J1
+    Unable to create a 0.15mm annular width in this pad for this footprint.
+[annular_width]: Annular width (board setup constraints min annular width 0.1500 mm; actual 0.1450 mm)
+    Rule: board setup constraints; error (excluded)
+    @(122.2000 mm, 111.6800 mm): PTH pad 2 [/USB_DN] of J1
+    Unable to create a 0.15mm annular width in this pad for this footprint.
+[annular_width]: Annular width (board setup constraints min annular width 0.1500 mm; actual 0.1450 mm)
+    Rule: board setup constraints; error (excluded)
+    @(122.8500 mm, 112.3300 mm): PTH pad 1 [VBUS] of J1
+    Unable to create a 0.15mm annular width in this pad for this footprint.
+[hole_to_hole]: Drilled hole too close to other hole (board setup constraints min 0.4495 mm; actual 0.4415 mm)
+    Rule: board setup constraints; warning (excluded)
+    @(120.2500 mm, 112.3300 mm): PTH pad 5 [GND] of J1
+    @(120.0500 mm, 113.2500 mm): PTH pad 9 [GND] of J1
+    This is the footprint.
+[hole_to_hole]: Drilled hole too close to other hole (board setup constraints min 0.4495 mm; actual 0.4030 mm)
+    Rule: board setup constraints; warning (excluded)
+    @(118.7500 mm, 112.7500 mm): NPTH pad of J1
+    @(118.2250 mm, 111.7100 mm): NPTH pad of J1
+    This is the footprint.
+[hole_to_hole]: Drilled hole too close to other hole (board setup constraints min 0.4495 mm; actual 0.4031 mm)
+    Rule: board setup constraints; warning (excluded)
+    @(124.3500 mm, 112.7500 mm): NPTH pad of J1
+    @(124.8751 mm, 111.7100 mm): NPTH pad of J1
+    This is the footprint.
+
+** Found 0 unconnected pads **
+
+** Found 2 Footprint errors **
+[net_conflict]: Pad net (VBUS) doesn't match net given by schematic (GND)
+    Local override; warning
+    @(120.0500 mm, 110.7500 mm): PTH pad 7 [VBUS] of J1
+[net_conflict]: Pad net (VBUS) doesn't match net given by schematic (GND)
+    Local override; warning
+    @(123.0500 mm, 110.7500 mm): PTH pad 6 [VBUS] of J1
+
+** Ignored checks **
+    - Footprint has no courtyard defined
+    - Track endpoint not centered on via
+    - Tuning profile track geometries
+    - Footprint doesn't match symbol's footprint filters
+    - Footprint component type doesn't match footprint pads
+
+** End of Report **

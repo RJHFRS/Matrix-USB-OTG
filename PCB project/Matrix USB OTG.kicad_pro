@@ -39,9 +39,9 @@
         "other_text_thickness": 0.15,
         "other_text_upright": false,
         "pads": {
-          "drill": 0.4572,
-          "height": 0.8,
-          "width": 0.66
+          "drill": 0.55,
+          "height": 0.77,
+          "width": 0.95
         },
         "silk_line_width": 0.1,
         "silk_text_italic": false,
@@ -76,7 +76,56 @@
           "width": 0.0
         }
       ],
-      "drc_exclusions": [],
+      "drc_exclusions": [
+        [
+          "annular_width|120050000|110750000|d069f9cd-8339-4879-9318-6426e991fd9a|00000000-0000-0000-0000-000000000000",
+          "Unable to create a 0.15mm annular width in this pad for this footprint."
+        ],
+        [
+          "annular_width|120050000|113250000|4130c83f-2b4c-4f3a-bb2a-672ad380f4b1|00000000-0000-0000-0000-000000000000",
+          "Unable to create a 0.15mm annular width in this pad for this footprint."
+        ],
+        [
+          "annular_width|120249999|112330001|3d3057ce-fede-45d9-9951-cba7a688056c|00000000-0000-0000-0000-000000000000",
+          "Unable to create a 0.15mm annular width in this pad for this footprint."
+        ],
+        [
+          "annular_width|120900000|111680001|ad9011f1-4bfe-4ebb-8f9e-8624335f0b49|00000000-0000-0000-0000-000000000000",
+          "Unable to create a 0.15mm annular width in this pad for this footprint."
+        ],
+        [
+          "annular_width|121549999|112330001|25d4f5c8-869c-4848-bebc-568a52571ef1|00000000-0000-0000-0000-000000000000",
+          "Unable to create a 0.15mm annular width in this pad for this footprint."
+        ],
+        [
+          "annular_width|122199998|111680001|1be4346b-720e-4723-b1c5-45bd1651dba6|00000000-0000-0000-0000-000000000000",
+          "Unable to create a 0.15mm annular width in this pad for this footprint."
+        ],
+        [
+          "annular_width|122849999|112330001|c16dca5e-6aef-462a-8d63-5451b3758101|00000000-0000-0000-0000-000000000000",
+          "Unable to create a 0.15mm annular width in this pad for this footprint."
+        ],
+        [
+          "annular_width|123049999|110750000|4536397f-7acf-41e4-b0ea-cd658fce7a8c|00000000-0000-0000-0000-000000000000",
+          "Unable to create a 0.15mm annular width in this pad for this footprint."
+        ],
+        [
+          "annular_width|123049999|113250000|bf567cb4-3748-44ea-8299-adc87f827292|00000000-0000-0000-0000-000000000000",
+          "Unable to create a 0.15mm annular width in this pad for this footprint."
+        ],
+        [
+          "hole_to_hole|118224999|111710001|0efcb109-8b22-43b0-87e4-3213230fd9bf|7bbc2e9c-b503-4b64-91e8-880c2b40d69e",
+          "This is the footprint."
+        ],
+        [
+          "hole_to_hole|120050000|113250000|3d3057ce-fede-45d9-9951-cba7a688056c|4130c83f-2b4c-4f3a-bb2a-672ad380f4b1",
+          "This is the footprint."
+        ],
+        [
+          "hole_to_hole|124349999|112750001|0a5fd7bd-33f2-4eca-a201-72051ca401f4|b3c34a60-9090-448f-8801-8e841ef346a3",
+          "This is the footprint."
+        ]
+      ],
       "meta": {
         "version": 2
       },
@@ -150,17 +199,17 @@
         "min_connection": 0.0,
         "min_copper_edge_clearance": 0.3,
         "min_groove_width": 0.0,
-        "min_hole_clearance": 0.25,
-        "min_hole_to_hole": 0.25,
+        "min_hole_clearance": 0.3,
+        "min_hole_to_hole": 0.45,
         "min_microvia_diameter": 0.2,
         "min_microvia_drill": 0.1,
         "min_resolved_spokes": 2,
         "min_silk_clearance": 0.0,
-        "min_text_height": 0.8,
-        "min_text_thickness": 0.08,
-        "min_through_hole_diameter": 0.3,
+        "min_text_height": 0.675,
+        "min_text_thickness": 0.125,
+        "min_through_hole_diameter": 0.2,
         "min_track_width": 0.25,
-        "min_via_annular_width": 0.1,
+        "min_via_annular_width": 0.15,
         "min_via_diameter": 0.5,
         "solder_mask_to_copper_clearance": 0.0,
         "use_height_for_length_calcs": true
