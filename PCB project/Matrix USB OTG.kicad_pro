@@ -60,13 +60,13 @@
           "hatch_smoothing_level": 0,
           "hatch_smoothing_value": 0.1,
           "hatch_thickness": 1.0,
-          "min_clearance": 0.4,
+          "min_clearance": 0.3,
           "min_island_area": 10.0,
           "min_thickness": 0.25,
           "pad_connection": 1,
           "remove_islands": 0,
           "thermal_relief_gap": 0.2,
-          "thermal_relief_spoke_width": 0.25
+          "thermal_relief_spoke_width": 0.5
         }
       },
       "diff_pair_dimensions": [
@@ -112,18 +112,6 @@
         [
           "annular_width|123049999|113250000|bf567cb4-3748-44ea-8299-adc87f827292|00000000-0000-0000-0000-000000000000",
           "Unable to create a 0.15mm annular width in this pad for this footprint."
-        ],
-        [
-          "hole_to_hole|118224999|111710001|0efcb109-8b22-43b0-87e4-3213230fd9bf|7bbc2e9c-b503-4b64-91e8-880c2b40d69e",
-          "This is the footprint."
-        ],
-        [
-          "hole_to_hole|120050000|113250000|3d3057ce-fede-45d9-9951-cba7a688056c|4130c83f-2b4c-4f3a-bb2a-672ad380f4b1",
-          "This is the footprint."
-        ],
-        [
-          "hole_to_hole|124349999|112750001|0a5fd7bd-33f2-4eca-a201-72051ca401f4|b3c34a60-9090-448f-8801-8e841ef346a3",
-          "This is the footprint."
         ]
       ],
       "meta": {
