@@ -202,24 +202,26 @@
 			(on_board yes)
 			(in_pos_files yes)
 			(duplicate_pin_numbers_are_jumpers no)
-			(property "Reference" "J"
-				(at 8.382 -12.446 0)
+			(property "Reference" "J1"
+				(at 6.35 -20.9549 0)
 				(show_name no)
 				(do_not_autoplace no)
 				(effects
 					(font
 						(size 1.524 1.524)
 					)
+					(justify right)
 				)
 			)
-			(property "Value" "USB3150-30-70-A"
-				(at 35.306 -12.192 0)
+			(property "Value" "USB3150-30-130-A"
+				(at 45.72 -12.7 0)
 				(show_name no)
 				(do_not_autoplace no)
 				(effects
 					(font
 						(size 1.524 1.524)
 					)
+					(justify right)
 				)
 			)
 			(property "Footprint" "Matrix-USB-OTG:USB3150-30-130-A_GCC"
@@ -234,7 +236,7 @@
 					)
 				)
 			)
-			(property "Datasheet" "USB3150-30-130-A"
+			(property "Datasheet" "https://gct.co/files/specs/usb3150-spec.pdf"
 				(at 33.274 -12.192 0)
 				(show_name no)
 				(do_not_autoplace no)
@@ -246,7 +248,50 @@
 					)
 				)
 			)
-			(property "Description" ""
+			(property "Description" "USB - micro B USB 2.0 Plug Connector 5 Position Through Hole"
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "MPN" ""
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "RS PN" ""
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Digikey PN" "2073-USB3150-30-130-ACT-ND - Cut Tape (CT)"
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "MANUFACTURER" "GCT"
 				(at 0 0 0)
 				(show_name no)
 				(do_not_autoplace no)
@@ -411,7 +456,7 @@
 					)
 				)
 				(pin power_in line
-					(at 25.4 -33.02 90)
+					(at 27.94 -33.02 90)
 					(length 2.54)
 					(name "GND"
 						(effects
@@ -429,7 +474,7 @@
 					)
 				)
 				(pin power_in line
-					(at 22.86 -33.02 90)
+					(at 25.4 -33.02 90)
 					(length 2.54)
 					(name "GND"
 						(effects
@@ -447,7 +492,7 @@
 					)
 				)
 				(pin power_in line
-					(at 20.32 -33.02 90)
+					(at 22.86 -33.02 90)
 					(length 2.54)
 					(name "GND"
 						(effects
@@ -465,7 +510,7 @@
 					)
 				)
 				(pin power_in line
-					(at 17.78 -33.02 90)
+					(at 20.32 -33.02 90)
 					(length 2.54)
 					(name "GND"
 						(effects
@@ -483,7 +528,7 @@
 					)
 				)
 				(pin power_in line
-					(at 15.24 -33.02 90)
+					(at 17.78 -33.02 90)
 					(length 2.54)
 					(name "GND"
 						(effects
@@ -493,6 +538,42 @@
 						)
 					)
 					(number "9"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin power_in line
+					(at 15.24 -33.02 90)
+					(length 2.54)
+					(name "GND"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "10"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin power_in line
+					(at 12.7 -33.02 90)
+					(length 2.54)
+					(name "GND"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "11"
 						(effects
 							(font
 								(size 1.27 1.27)
@@ -926,6 +1007,12 @@
 		(uuid "98be5f7f-8313-4b01-b47e-7c47a5fa4151")
 	)
 	(junction
+		(at 130.81 123.19)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "beaad57a-4671-4c70-8c2f-283cf81b8ffd")
+	)
+	(junction
 		(at 128.27 123.19)
 		(diameter 0)
 		(color 0 0 0 0)
@@ -974,6 +1061,16 @@
 			(type default)
 		)
 		(uuid "45fdde9b-db02-413f-b0b6-5c018ba63a12")
+	)
+	(wire
+		(pts
+			(xy 130.81 123.19) (xy 133.35 123.19)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "470c775a-ee1b-4989-b62b-b18a48b2b9e6")
 	)
 	(wire
 		(pts
@@ -4403,7 +4500,7 @@
 				(justify right)
 			)
 		)
-		(property "Value" "USB3150-30-70-A"
+		(property "Value" "USB3150-30-130-A"
 			(at 151.13 102.87 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -4426,7 +4523,7 @@
 				)
 			)
 		)
-		(property "Datasheet" "USB3150-30-130-A"
+		(property "Datasheet" "https://gct.co/files/specs/usb3150-spec.pdf"
 			(at 138.684 102.362 0)
 			(hide yes)
 			(show_name no)
@@ -4438,7 +4535,7 @@
 				)
 			)
 		)
-		(property "Description" ""
+		(property "Description" "USB - micro B USB 2.0 Plug Connector 5 Position Through Hole"
 			(at 105.41 90.17 0)
 			(hide yes)
 			(show_name no)
@@ -4470,7 +4567,18 @@
 				)
 			)
 		)
-		(property "Digikey PN" ""
+		(property "Digikey PN" "2073-USB3150-30-130-ACT-ND - Cut Tape (CT)"
+			(at 105.41 90.17 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "MANUFACTURER" "GCT"
 			(at 105.41 90.17 0)
 			(hide yes)
 			(show_name no)
@@ -4507,6 +4615,12 @@
 		)
 		(pin "1"
 			(uuid "40dec015-6d10-47c3-a1e2-3d30c0368704")
+		)
+		(pin "11"
+			(uuid "22168885-78d3-49c0-870d-7219847ecc8d")
+		)
+		(pin "10"
+			(uuid "d598ff52-1a76-4d93-8fbf-dcbb6439508f")
 		)
 		(instances
 			(project "Matrix USB OTG"
@@ -4561,7 +4675,7 @@
 				(justify bottom)
 			)
 		)
-		(property "Datasheet" ""
+		(property "Datasheet" "https://suddendocs.samtec.com/catalog_english/ssm_sm.pdf?_gl"
 			(at 195.58 111.76 0)
 			(hide yes)
 			(show_name no)
@@ -4572,7 +4686,7 @@
 				)
 			)
 		)
-		(property "Description" ""
+		(property "Description" "4 Position Receptacle, Pass Through Connector 0.100\" (2.54mm) Surface Mount Gold"
 			(at 195.58 111.76 0)
 			(hide yes)
 			(show_name no)
@@ -4629,7 +4743,7 @@
 				)
 			)
 		)
-		(property "RS PN" ""
+		(property "RS PN" "765-5351P"
 			(at 195.58 111.76 0)
 			(hide yes)
 			(show_name no)
@@ -4640,7 +4754,7 @@
 				)
 			)
 		)
-		(property "Digikey PN" ""
+		(property "Digikey PN" "612-SSM-102-L-DV-ND"
 			(at 195.58 111.76 0)
 			(hide yes)
 			(show_name no)
