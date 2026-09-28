@@ -127,7 +127,7 @@
 			(disableapertmacros no)
 			(usegerberextensions yes)
 			(usegerberattributes no)
-			(usegerberadvancedattributes yes)
+			(usegerberadvancedattributes no)
 			(creategerberjobfile no)
 			(dashed_line_dash_ratio 12)
 			(dashed_line_gap_ratio 3)
@@ -155,7 +155,7 @@
 			(mirror no)
 			(drillshape 0)
 			(scaleselection 1)
-			(outputdirectory "../Manufacturing/")
+			(outputdirectory "../Manufacturing/FAB/")
 		)
 	)
 	(footprint "Matrix-USB-OTG:SAMTEC_SSM-102-L-DV"

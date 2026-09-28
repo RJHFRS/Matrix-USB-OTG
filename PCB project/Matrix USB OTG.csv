@@ -1,0 +1,3 @@
+Reference,Value,DNP,Footprint,Datasheet,MANUFACTURER,RS PN,Digikey PN,Description
+J1,USB3150-30-130-A,,Matrix-USB-OTG:USB3150-30-130-A_GCC,https://gct.co/files/specs/usb3150-spec.pdf,GCT,,2073-USB3150-30-130-ACT-ND - Cut Tape (CT),USB - micro B USB 2.0 Plug Connector 5 Position Through Hole
+J2,SSM-102-L-DV,,Matrix-USB-OTG:SAMTEC_SSM-102-L-DV,https://suddendocs.samtec.com/catalog_english/ssm_sm.pdf?_gl,Samtec,765-5351P,612-SSM-102-L-DV-ND,"4 Position Receptacle, Pass Through Connector 0.100"" (2.54mm) Surface Mount Gold"
