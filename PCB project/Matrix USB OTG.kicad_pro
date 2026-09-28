@@ -78,51 +78,7 @@
       ],
       "drc_exclusions": [
         [
-          "annular_width|120050000|110750000|d069f9cd-8339-4879-9318-6426e991fd9a|00000000-0000-0000-0000-000000000000",
-          "Unable to create a 0.15mm annular width in this pad for this footprint."
-        ],
-        [
-          "annular_width|120050000|113250000|4130c83f-2b4c-4f3a-bb2a-672ad380f4b1|00000000-0000-0000-0000-000000000000",
-          "Unable to create a 0.15mm annular width in this pad for this footprint."
-        ],
-        [
-          "annular_width|120249999|112330001|3d3057ce-fede-45d9-9951-cba7a688056c|00000000-0000-0000-0000-000000000000",
-          "Unable to create a 0.15mm annular width in this pad for this footprint."
-        ],
-        [
-          "annular_width|120900000|111680001|ad9011f1-4bfe-4ebb-8f9e-8624335f0b49|00000000-0000-0000-0000-000000000000",
-          "Unable to create a 0.15mm annular width in this pad for this footprint."
-        ],
-        [
-          "annular_width|121549999|112330001|25d4f5c8-869c-4848-bebc-568a52571ef1|00000000-0000-0000-0000-000000000000",
-          "Unable to create a 0.15mm annular width in this pad for this footprint."
-        ],
-        [
-          "annular_width|122199998|111680001|1be4346b-720e-4723-b1c5-45bd1651dba6|00000000-0000-0000-0000-000000000000",
-          "Unable to create a 0.15mm annular width in this pad for this footprint."
-        ],
-        [
-          "annular_width|122849999|112330001|c16dca5e-6aef-462a-8d63-5451b3758101|00000000-0000-0000-0000-000000000000",
-          "Unable to create a 0.15mm annular width in this pad for this footprint."
-        ],
-        [
-          "annular_width|123049999|110750000|4536397f-7acf-41e4-b0ea-cd658fce7a8c|00000000-0000-0000-0000-000000000000",
-          "Unable to create a 0.15mm annular width in this pad for this footprint."
-        ],
-        [
-          "annular_width|123049999|113250000|bf567cb4-3748-44ea-8299-adc87f827292|00000000-0000-0000-0000-000000000000",
-          "Unable to create a 0.15mm annular width in this pad for this footprint."
-        ],
-        [
           "hole_to_hole|118750000|112750001|0efcb109-8b22-43b0-87e4-3213230fd9bf|7bbc2e9c-b503-4b64-91e8-880c2b40d69e",
-          "This is the footprint."
-        ],
-        [
-          "hole_to_hole|120249999|112330001|3d3057ce-fede-45d9-9951-cba7a688056c|4130c83f-2b4c-4f3a-bb2a-672ad380f4b1",
-          "This is the footprint."
-        ],
-        [
-          "hole_to_hole|122849999|112330001|bf567cb4-3748-44ea-8299-adc87f827292|c16dca5e-6aef-462a-8d63-5451b3758101",
           "This is the footprint."
         ],
         [
