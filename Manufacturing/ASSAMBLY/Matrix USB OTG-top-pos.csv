@@ -1,0 +1,5 @@
+Ref,Val,Package,PosX,PosY,Rot,Side
+"FID1","Fiducial","Fiducial_0.5mm_Mask1.5mm",7.195118,-4.754252,0.000000,top
+"FID2","Fiducial","Fiducial_0.5mm_Mask1.5mm",7.448412,-5.114252,0.000000,top
+"FID3","Fiducial","Fiducial_0.5mm_Mask1.5mm",7.885276,-4.980866,0.000000,top
+"J2","SSM-102-L-DV","SAMTEC_SSM-102-L-DV",7.368346,-4.598583,90.000000,top
